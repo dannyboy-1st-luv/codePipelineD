@@ -9,6 +9,6 @@ phases:
     - ./terraform init
     - ./terraform apply --auto-approve
 artifacts:
-  name: TerraformPlan
+  name: TerraformPlan1
   files:
   - "Terraform.tfstate*"
